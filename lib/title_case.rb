@@ -1,5 +1,5 @@
 class String
   def title_case()
-    self.downcase()
+    self.downcase().capitalize()
   end
 end

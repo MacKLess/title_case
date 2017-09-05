@@ -6,7 +6,11 @@ describe('#title_case') do
     expect(('1@#$%!').title_case()).to(eq('1@#$%!'))
   end
 
-  it("changes all letters in a string to lowercase") do
-    expect(("IT WAS THE WORST OF TIMES").title_case()).to(eq("it was the worst of times"))
+  it("capitalizes the first letter of a string") do
+    expect(("bioshock").title_case()).to(eq("Bioshock"))
+  end
+
+  it("changes all other letters in a string to lowercase") do
+    expect(("BIOSHOCK").title_case()).to(eq("Bioshock"))
   end
 end

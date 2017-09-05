@@ -18,11 +18,11 @@ _Ruby application that will return a string of words to a user input in title ca
 * _Does nothing to non-alphabetical characters_
   * Example input: it was 9 of the worst #$(!&% of times
   * Example output: it was 9 of the worst #$(!&% of times
-* _Change every letter in a string to lowercase_
-  * Example input: IT WAS THE WORST OF TIMES
-  * Example output: it was the worst of times
 * _Capitalize first letter of a string_
   * Example input: it was the worst of times
+  * Example output: It was the worst of times
+* _Lowercases letters in string besides the first letter._
+  * Example input: IT WAS THE WORST OF TIMES
   * Example output: It was the worst of times
 * _Capitalize first letter of each word in a string_
   * Example input: it was the worst of times
