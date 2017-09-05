@@ -13,4 +13,8 @@ describe('#title_case') do
   it("changes all other letters in a string to lowercase") do
     expect(("BIOSHOCK").title_case()).to(eq("Bioshock"))
   end
+
+  it("capitalizes the first letter of each word in a string") do
+    expect(("twin peaks").title_case()).to(eq("Twin Peaks"))
+  end
 end
