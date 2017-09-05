@@ -17,4 +17,8 @@ describe('#title_case') do
   it("capitalizes the first letter of each word in a string") do
     expect(("twin peaks").title_case()).to(eq("Twin Peaks"))
   end
+
+  it("does nothing to: a, an, the, at, by, for, in, of, on, to, up, and, as, but, or, nor unless first letter of string") do
+    expect(("it was the worst of times").title_case()).to(eq("It Was the Worst of Times"))
+  end
 end
