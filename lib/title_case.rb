@@ -1,5 +1,5 @@
 class String
   def title_case()
-    self
+    self.downcase()
   end
 end
